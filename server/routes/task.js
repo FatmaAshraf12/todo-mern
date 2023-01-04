@@ -39,4 +39,13 @@ router.get("/tasks/:user", async (req, res) => {
   res.json(tasks);
 });
 
+// Get all tasks
+router.get("/tasks", async (req, res) => {
+  const task = await Task.find({}).populate({
+    path: "user",
+    select: "-password",
+  });
+  res.send(task);
+});
+
 module.exports = router;
