@@ -1,0 +1,66 @@
+.App {
+  background-color: #0e152f;
+  min-height: 100vh;
+  padding-top: 150px;
+}
+
+.todo-container {
+  background-color: #f6d241;
+  width: 50%;
+  margin: auto;
+  padding: 22px;
+}
+
+
+
+
+table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #0e152f;
+  border-collapse: collapse;
+}
+
+tr,td,th{
+  padding: 20px;
+  border: 1px solid #0e152f;
+}
+
+h2{
+  text-align: center;
+}
+
+input {
+  padding: 13px 5px;
+  border-color: transparent;
+}
+
+input[type="submit"] {
+    background-color: #0e152f;
+    color: #fff;
+    border-color: #0e152f;
+    padding: 11px;
+    width: 193px;
+    font-size: 17px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+form {
+  text-align: center;
+  margin-top: 19px;
+}
+
+input#name {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+input#name {
+  border-right-color: #ededed;
+}
+
+
+input {
+  outline: none;
+}
